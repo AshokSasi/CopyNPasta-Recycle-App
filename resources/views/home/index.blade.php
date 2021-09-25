@@ -37,27 +37,35 @@
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        @php ($count = 1)
+        @foreach ($items as $item)
+        
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <img width="100%" height="260" src="/img/{{$item->id}}.jpg" alt="">
             <div class="card-body">
-              <p class="card-text">How to dispose of plastic bottles.</p>
+              <h4 class="card-text"> <a href="/home/{{$item->id}}" >
+                {{$item->title}}</h2>
+              </a></h4>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
+        @if ($count >2)
+        <div class="w-100"></div>
+        <br/>
+        @php ($count = 1)
         
+        @else 
+        @php ($count++)
         
+        @endif
+        
+          @endforeach
+     
 
-       
-        
-        
-        
+          
       </div>
     </div>
   </div>

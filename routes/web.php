@@ -1,7 +1,9 @@
 <?php
 
 
-Route::get('/','HomeController@index');
+Route::get('/','ItemsController@index');
+
+Route::get('/home/{item}','ItemsController@show');
 
 Route::get('/posts/index','PostsController@index');
 

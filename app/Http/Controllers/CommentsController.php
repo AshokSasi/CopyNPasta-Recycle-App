@@ -18,4 +18,3 @@ class CommentsController extends Controller
         return back();
     }
 }
-//========================OLD CODE=====================

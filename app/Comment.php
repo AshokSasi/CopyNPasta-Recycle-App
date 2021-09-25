@@ -9,4 +9,3 @@ class Comment extends Model
     }
 }
 
-//========================OLD CODE=====================

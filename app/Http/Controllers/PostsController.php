@@ -17,7 +17,7 @@ class PostsController extends Controller
 
     public function show(Post $post)
     {
-        //$post = Post::find($post);
+        
         return view('posts.show',compact('post'));
     }
 
@@ -28,15 +28,7 @@ class PostsController extends Controller
 
     public function store()
     {
-       // dd(request(['title', 'body']));
-        //Create a new post using the request data
-        // $post = new Post;
-
-        // $post->title = request('title');
-        // $post->body = request('body');
-
-        // //Save it to the database
-        // $post->save();
+     
 
         //Validate requires data
         $this->validate(request(),[
@@ -52,10 +44,3 @@ class PostsController extends Controller
     }
 }
 
-//====================OLD COMMENTS======================
-// public function index()
-// {
-//     $posts = \App\Post::all();
-//     $posts = \App\Post::orderBy('created_at', 'desc')->get();
-//     return view('posts.index', compact('posts'));
-// }

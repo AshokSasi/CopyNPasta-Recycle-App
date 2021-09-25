@@ -39,7 +39,7 @@
         <div class="card-block">
             
             <form method="POST" action="/posts/{{$post->id}}/comments">
-                {{ csrf_field() }} <!--include this in all forms-->
+                {{ csrf_field() }} 
 
                 <div class="form-group p-3">
 
