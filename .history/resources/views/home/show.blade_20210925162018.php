@@ -13,7 +13,7 @@
     {{$item -> important}}
 </div>
 <br/>
-<img width="60%" height="350" src="/img/{{$item->id}}.jpg" alt="">
+<img width="60%" height="260" src="/img/{{$item->id}}.jpg" alt="">
 
 </div>
 @endsection

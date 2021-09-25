@@ -12,8 +12,8 @@
 <div class="red-text">
     {{$item -> important}}
 </div>
-<br/>
-<img width="60%" height="350" src="/img/{{$item->id}}.jpg" alt="">
+
+<img width="300" height="260" src="/img/{{$item->id}}.jpg" alt="">
 
 </div>
 @endsection
