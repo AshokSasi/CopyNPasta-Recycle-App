@@ -6,12 +6,10 @@
       
         <div class="col-md-8 blog-main">
           
-          <div class="mb-3">
-            <form action="/posts/create">
-              <button type="submit" class="btn btn-primary" >Create Post</button>
-            </form>
-          </div>
-          
+        
+          <form action="/posts/create">
+            <button type="submit" class="btn btn-primary" >Create Post</button>
+          </form>
          
           
       

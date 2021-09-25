@@ -5,9 +5,9 @@ Route::get('/','ItemsController@index');
 
 Route::get('/home/{item}','ItemsController@show');
 
-// Route::get('/about',function(){
-//     return view ('about');
-// });
+Route::get('/about',function(){
+    return view ('about');
+});
 
 Route::get('/posts/index','PostsController@index');
 

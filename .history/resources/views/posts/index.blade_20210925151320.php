@@ -6,15 +6,9 @@
       
         <div class="col-md-8 blog-main">
           
-          <div class="mb-3">
-            <form action="/posts/create">
-              <button type="submit" class="btn btn-primary" >Create Post</button>
-            </form>
-          </div>
-          
-         
-          
-      
+          <a class="btn btn-outline-primary text-center" href="/posts/create">Create Post</a>
+          <br/>
+          <br/>
           
           @foreach ($posts as $post)
 

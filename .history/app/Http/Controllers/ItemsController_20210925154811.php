@@ -19,5 +19,8 @@ class ItemsController extends Controller
         return view('home.show',compact('item'));
     }
 
- 
+    public function about()
+    {
+        return view('home.about');
+    }
 }

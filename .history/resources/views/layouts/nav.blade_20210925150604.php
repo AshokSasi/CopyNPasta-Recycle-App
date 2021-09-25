@@ -12,6 +12,15 @@
       <li class="nav-item">
         <a class="nav-link" href="/posts/index">Blogs</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Press</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">New Hires</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
   
      
     </ul>

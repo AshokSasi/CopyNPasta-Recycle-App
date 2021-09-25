@@ -5,16 +5,7 @@
     
       
         <div class="col-md-8 blog-main">
-          
-          <div class="mb-3">
-            <form action="/posts/create">
-              <button type="submit" class="btn btn-primary" >Create Post</button>
-            </form>
-          </div>
-          
-         
-          
-      
+          <button>Create Post</button>
           
           @foreach ($posts as $post)
 
@@ -24,7 +15,8 @@
           
           
           <nav class="blog-pagination">
-            
+            <a class="btn btn-outline-primary" href="#">Older</a>
+            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
           </nav>
 
         </div><!-- /.blog-main -->

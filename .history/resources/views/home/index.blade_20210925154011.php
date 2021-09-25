@@ -27,6 +27,8 @@
         <p class="lead text-muted">Welcome to H2R! The website that guides you on how to recycle.
            Below you can find a list of items with their description and improtant notes on how to dispose of them. Have a look at our blog page as well to see how others are recycling.</p>
         <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
         </p>
       </div>
     </div>
